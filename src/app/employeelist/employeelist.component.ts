@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../employee.service';  
 import { Employee } from '../employee';  
 import { Observable,Subject } from "rxjs";
+import {FormControl,FormGroup,Validators} from '@angular/forms'; 
 @Component({
   selector: 'app-employeelist',
   templateUrl: './employeelist.component.html',
