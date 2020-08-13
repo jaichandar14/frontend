@@ -60,7 +60,7 @@ export class AddEmployeeComponent implements OnInit {
     return this.employeesaveform.get(' salary');  
   }  
   
-  addStudentForm(){  
+  addEmployeeForm(){  
     this.submitted=false;  
     this.employeesaveform.reset();  
   }  

@@ -36,7 +36,7 @@ export class EmployeelistComponent implements OnInit {
     })  
   }  
     
-  deleteStudent(empid: number) {  
+  deleteEmployee (empid: number) {  
     this.employeeservice.deleteEmployee(empid)  
       .subscribe(  
         data => {  
@@ -49,7 +49,7 @@ export class EmployeelistComponent implements OnInit {
         error => console.log(error));  
   }  
   
-  updateStudent(empid: number){  
+  updateEmployee  (empid: number){  
     this.employeeservice.getEmployee(empid)  
       .subscribe(  
         data => {  

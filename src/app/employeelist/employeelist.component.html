@@ -24,7 +24,7 @@
                     <th>Phone </th>
                     <th>Designation </th>
                     <th>Salary </th>
-                    <th>Action</th>
+
 
                 </tr>
             </thead>
@@ -35,8 +35,8 @@
                     <td>{{employee.phone}}</td>
                     <td>{{employee.designation}}</td>
                     <td>{{employee.salary}}</td>
-                    <td><button (click)="deleteEmployee(employee.empid)" class='btn btn-primary'><i class="fa fa-futboll-0">Delete</i></button>
-                        <button (click)="updateemployee(employee.empid)" class='btn btn-info' data-toggle="modal" data-target="#myModal">Update</button>
+                    <td><button (click)="deleteEmployee (employee.empid)" class='btn btn-primary'><i class="fa fa-futboll-0">Delete</i></button>
+                        <button (click)="updateEmployee(employee.empid)" class='btn btn-info' data-toggle="modal" data-target="#myModal">Update</button>
                     </td>
                 </tr>
             </tbody><br>
